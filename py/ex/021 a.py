@@ -1,0 +1,5 @@
+frase = input('escreva uma frase: ')
+frase = frase.lower()
+print ('sua frase tem {} letras A'.format(frase.count('a')))
+print ('a primeira posiçao q o a aparece é {}'.format(frase.find('a')+1))
+print ('a ultiama posiçao q o a aparece é {}'.format(frase.rfind('a')+1))

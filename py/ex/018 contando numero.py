@@ -1,0 +1,5 @@
+n1 = input('Digite um numero de 1 a 1999: ')
+print('unidade: {}'.format(n1[3]))
+print('desena: {}'.format(n1[2]))
+print('centena: {}'.format(n1[1]))
+print('milhar: {}'.format(n1[0]))
