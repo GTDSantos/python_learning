@@ -1,0 +1,6 @@
+n1 = int(input('qual é o valor do produto? '))
+print('seu produto tem 4 opsoes de pagamento:')
+print('a vista/cheque {}'.format(n1-(n1*0.10)))
+print('à vista no cartão {}'.format(n1-(n1*0.05)))
+print('2x no cartão {}'.format(n1))
+print('3x no cartão {}'.format((n1*0.20)+n1))

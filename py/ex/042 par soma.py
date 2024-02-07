@@ -1,6 +1,9 @@
-r= 0
-for n in range(1,7):
-    if n % 2 == 0:
-        r = r + n
+soma = 0
+n =0
 
-print(r)
+for s in range(1,7):
+    n = int(input('escreva um numero: '))
+    if n % 2 == 0:
+        soma += n
+
+print('a soam dos numeros pares é: {}'.format(soma))
