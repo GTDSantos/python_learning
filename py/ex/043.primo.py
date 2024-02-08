@@ -1,6 +1,14 @@
+a=0
+tot =0
 n =int(input("digete um numero: "))
 
-if n % 2 != 0 and n % 3 != 0:
-    print(" é primo")
+for i in range(0,n):
+    a = a +1
+    if n % a ==0:
+        
+        tot += 1
+      
+if tot == 2:
+    print('esse numero é primo')
 else:
-    print(" nao é primo")
+    print('esse numero nao é primo')   
